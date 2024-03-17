@@ -1,0 +1,34 @@
+
+.book .row form .inputBox input{
+    width:100%;
+    padding:1rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+}
+
+.book .row form .inputBox h3{
+    font-size: 2rem;
+    padding:1rem 0;
+    color: #666;
+
+}
+
+.packages .box-containers{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+
+}
+.packages .box-container .box{
+    flex:1 1 30rem;
+
+}
+
+.packages .box-container .box img{
+    height: 25rem;
+    width:100%;
+    object-fit: cover;
+    
+}
